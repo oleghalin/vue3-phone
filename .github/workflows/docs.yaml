@@ -13,5 +13,5 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           TARGET_REPO: oleghalin/vue3-phone
           TARGET_BRANCH: master
-          BUILD_SCRIPT: cd docs && yarn && yarn docs:build
+          BUILD_SCRIPT: cd docs && yarn && yarn build
           BUILD_DIR: docs/.vuepress/dist
