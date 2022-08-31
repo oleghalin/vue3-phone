@@ -161,22 +161,22 @@ const phone = toRef(props, "modelValue")
   position: relative;
   align-items: center;
   height: theme(height.8);
-  background-color: theme(colors.gray.500);
+  background-color: theme('colors.gray.500');
   padding: theme(padding.2);
 }
 
 .wrapper__input-dropdown {
   left: 0;
   top: theme(height.9);
-  background-color: theme(colors.red.500);
+  background-color: theme('colors.red.500');
   position: absolute;
   min-height: theme(height.48);
   width: 100%;
-  border-radius: theme(borderRadius.xl);
+  border-radius: theme('borderRadius.xl');
 }
 
 .wrapper__list {
-  color: theme(colors.white);
+  color: theme('colors.white');
 }
 
 .wrapper__search-input {
@@ -188,20 +188,20 @@ const phone = toRef(props, "modelValue")
   padding: theme(padding.2);
 
   &:first-child:hover {
-    border-radius: theme(borderRadius.xl) theme(borderRadius.xl) 0 0;
+    border-radius: theme('borderRadius.xl') theme('borderRadius.xl') 0 0;
   }
 
   &:hover {
     cursor: pointer;
-    background-color: theme(colors.red.300);
+    background-color: theme('colors.red.400');
   }
 
   &.selected {
-    background-color: theme(colors.red.200);
+    background-color: theme('colors.red.200');
   }
 
   &.selected:hover {
-    background-color: theme(colors.red.100);
+    background-color: theme('colors.red.100');
   }
 }
 
