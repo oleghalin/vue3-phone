@@ -5,6 +5,9 @@ module.exports = {
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
   title: 'Vue3 Phone - oleghalin/vue3-phone',
+
+  base: '/vue3-phone',
+
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -29,7 +32,7 @@ module.exports = {
   themeConfig: {
     repo: 'oleghalin/vue3-phone',
     editLinks: false,
-    docsDir: '',
+    docsDir: 'docs',
     editLinkText: '',
     lastUpdated: false,
     nav: [
